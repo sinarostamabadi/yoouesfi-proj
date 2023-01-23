@@ -1,0 +1,23 @@
+.z1{font-family: fantasy;
+    font-size: 38px;
+    border: 4px #b96905 dashed;
+    color: #98490f;
+    text-align: center;
+    margin: 80px 500px;
+    padding: 10px;
+    background-color: #f1e792;
+
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin: 20px 170px;
+    border: 6px darkgoldenrod solid;}
+table,tr,td {
+    padding: 5px;
+    border: darkgoldenrod 4px solid;
+    direction: rtl;
+    width: 500px;
+    height: 40px;
+    margin: 120px 150px 100px 600px;
+}

@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: auto;
+    background-color: #f1faee;
+    text-align: center;
+    .title-header {
+        width: 100%;
+        height: 60px;
+        text-align: center;
+        background-color: #d90429;
+        padding-top: 12px;
+        padding-bottom: 7px;
+        color: white;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        p {
+            width: fit-content;
+            padding-bottom: 2px;
+            border-bottom: 2px solid white;
+        }
+    }
+    .card-container {
+        width: 250px;
+        height: auto;
+        background-color: white;
+        border-radius: 7px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        display: inline-block;
+        margin: 40px 40px 0px 20px;
+        overflow: hidden;
+        cursor: pointer;
+        &:hover {
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        }
+        .image {
+            width: 100%;
+            height: 100%;
+            img {
+                width: 100%;
+                height: 100%;
+                transform: scale(1.1)
+            }
+        }
+        .title {
+            width: 100%;
+            height: 60px;
+            text-align: center;
+            background-color: #d90429;
+            color: white;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding-top: 15px;
+            position: relative;
+            bottom: 2px;
+            p {
+                width: fit-content;
+                font-size: 17px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: 600;
+            }
+        }
+        .price {
+            width: 100%;
+            padding: 10px 10px;
+            font-size: 15px;
+            font-family: "yekan";
+            text-align: right;
+            p {
+                display: inline-block;
+                margin-left: 10px;
+                &:last-of-type {
+                    font-size: 18px;
+                    font-weight: 600;
+                    &::before {
+                        content: ": ";
+                    }
+                }
+            }
+        }
+        .count {
+            width: 100%;
+            padding: 5px 10px 15px 10px;
+            font-size: 18px;
+            font-family: "yekan";
+            text-align: right;
+            p {
+                display: inline-block;
+                margin-left: 10px;
+                &:last-of-type {
+                    font-size: 18px;
+                    font-weight: 600;
+                    &::before {
+                        content: ": ";
+                    }
+                }
+            }
+        }
+    }
+}

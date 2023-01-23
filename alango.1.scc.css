@@ -1,0 +1,34 @@
+.l1{font-family: fantasy;
+    font-size: 42px;
+    border: 8px #7be0ae dotted;
+    color: #773606;
+    text-align: center;
+    margin: 80px 500px;
+    padding: 10px;
+    background-color: rgb(253, 253, 253);
+}
+img {
+    width: 300px;
+    height: 300px;
+    margin: 20px 170px;
+    border: 6px #52f381 dotted;
+
+}
+.h1{margin: 20px 170px;
+}
+.p1{
+
+    margin: 10px 200px;
+}
+ .p2{
+     margin: 10px 200px ;}
+
+.sid {
+          width: 100%;
+          height: 500px;
+          background-color:#336e7b;
+          float: right;
+      }
+
+
+
